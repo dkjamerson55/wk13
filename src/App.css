@@ -8,12 +8,13 @@
     margin-bottom: 2rem;
     margin-left: .5rem;
 }
-
+/*Child of parent .navBar: flex organizes them into row*/
 nav ul{
     display: flex;
     flex-direction: row;
     justify-content: right;
 }
+/* list-style type set to none removes list elements */
  nav ul li{
     list-style-type: none;
     margin-right: 1em;
@@ -22,7 +23,7 @@ nav ul{
  nav ul li:hover{
     color: rgba(0, 0, 0, 0.705);
  }
-
+/* gives look of button being pressed when clicked */
  nav ul li:active{
     background-color: rgb(62, 121, 172);
     border-radius: .5rem;
