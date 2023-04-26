@@ -1,0 +1,60 @@
+.navBar{
+    width: 97vw;
+    background-color: rgb(202, 157, 97);
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgb(7, 7, 7);
+    margin-bottom: 2rem;
+    margin-left: .5rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+ nav ul li{
+    list-style-type: none;
+    margin-right: 1em;
+ }
+
+ nav ul li:hover{
+    color: rgba(0, 0, 0, 0.705);
+ }
+
+ nav ul li:active{
+    background-color: rgb(62, 121, 172);
+    border-radius: .5rem;
+    box-shadow: 10px 5px 5px black;
+ }
+
+ /* log in section */
+ .loginForm{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px  black;
+    font-style: italic;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(104, 101, 101);
+    padding: 1em;
+    border-radius: 1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 5px rgb(7, 7, 7);
+ }
+
+ #userName{
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+    box-shadow: 2px 2px 8px black;
+ }
+
+ #password{
+    margin-left: 4rem;
+    border-radius: .3rem;
+    box-shadow: 2px 2px 8px black;
+ }
