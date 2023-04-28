@@ -19,6 +19,7 @@ export default class Login extends Component{
                         <label className='form_label' for="password">Password:</label>
                         <input className='form_input' type='text' id='password' placeholder='********'></input>
                     </div>
+                    <button id="submitBtn" class="btn btn-warning form-control">Submit</button>
 
                 </form>
             </section>

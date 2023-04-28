@@ -59,3 +59,23 @@ nav ul{
     border-radius: .3rem;
     box-shadow: 2px 2px 8px black;
  }
+
+ #submitBtn{
+    margin-top: 1rem;
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(202, 157, 97);
+    font-size: 25px;
+    border-radius: .5rem;
+ }
+
+ #submitBtn:hover{
+    color: rgba(0, 0, 0, 0.705);
+ }
+
+ #submitBtn:active{
+    background-color: rgb(30, 77, 117);
+    border-radius: .5rem;
+    box-shadow: 10px 5px 5px black;
+ }
